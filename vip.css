@@ -10,6 +10,9 @@ nav {
 }
 
 span {
+}
+
+img {
 
 }
 
@@ -43,15 +46,25 @@ div.top-nav {
   margin-top: 20px;
 }
 
-p.ae {
+span.ae {
   margin-right: 30px;
-  margin-top: -20px;
+  margin-top: -35px;
+  margin-left: 15px;
   padding-bottom: 20px;
+  color:#BA7938;
+  position: absolute;
+}
 
+span.contact {
+  padding-top: .5em;
+}
+
+span.logo {
+  margin-top: 50px;
 }
 
 li#ae-wrap {
-  margin-top: -20px;
+
 }
 
 div.container {
