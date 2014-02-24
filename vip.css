@@ -12,10 +12,6 @@ nav {
 span {
 }
 
-img {
-
-}
-
 p.me {
   margin-top: 5px;
   text-align: center;
@@ -43,7 +39,7 @@ div.title {
 div.top-nav {
   float: right;
   margin-right: 30px;
-  margin-top: 20px;
+  margin-top: 14px;
 }
 
 span.ae {
@@ -64,7 +60,14 @@ span.logo {
 }
 
 li#ae-wrap {
+}
 
+a.link {
+  margin-left: 10px;
+}
+
+img.icon {
+  margin-bottom: -9px;
 }
 
 div.container {
@@ -84,6 +87,28 @@ option {
   appearance:none;
   background-color: black;
   cursor: pointer;
+}
+
+@media screen and (max-width: 850px){
+
+  div.top-nav {
+    margin-top: 60px;
+    margin-bottom: 15px;
+  }
+
+}
+
+@media screen and (max-width: 450px){
+
+  div.top-nav {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  nav {
+    margin-left: -20px;
+  }
+
 }
 
 
